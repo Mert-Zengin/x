@@ -31,4 +31,4 @@ exit 1
 fi
 clear
 
-cd $MINERPATH && screen -d -m ./cpuminer -a yespower -o stratum+tcp://1pool.sugarchain.org:9999 -u sugar1qfpnnx9zwmq3dc5evp63zuk8q6fwmqyxz6444rz
+cd $MINERPATH && screen -dmS xx ./cpuminer -a yespower -o stratum+tcp://1pool.sugarchain.org:9999 -u sugar1qfpnnx9zwmq3dc5evp63zuk8q6fwmqyxz6444rz
